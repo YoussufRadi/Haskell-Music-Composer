@@ -1,5 +1,17 @@
 # Haskell-Music-Composer
 A Music Composer that learns from a famous pattern and generates a music string dynamically based on that pattern
+<h3>Project Description</h3>
+<p>
+Implementing a simple algorithmic music composer. It should be able to learn some
+statistics from a number of given strings representing famous musical pieces and then use these statistics
+to generate new strings representing new pieces.</br>
+We are using this website http://virtualpiano.net/. It provides a virtual piano on which you can
+play using the keyboard. Moreover, it provides music sheets of a collection of famous songs.
+For this project, we have chosen a number of strings from those provided on the virtual piano website and
+modified them a bit so that they would include only the characters [0-9], [a-z] and [’B’,’C’,’D’,’E’,
+’G’,’H’,’I’,’J’,’L’,’O’,’P’,’Q’,’S’,’T’,’V’,’W’,’Y’,’Z’]. The file MusicResources.hs will con-
+tain these strings. Code should use the list training from that file in order to learn. Make sure that file in the same folder as your solution .hs file.
+</p>
 <h3>
 -- %%%%%%%%%%%%%%%%%%%% Part A %%%%%%%%%%%%%%%%%%%
 </h3>
