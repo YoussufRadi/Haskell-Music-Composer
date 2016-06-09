@@ -1,5 +1,7 @@
 # Haskell-Music-Composer
 A Music Composer that learns from a famous pattern and generates a music string dynamically based on that pattern
+
+To Contact me Click [Here](http://youssufradi.github.io/)
 <h3>Project Description</h3>
 <p>
 Implementing a simple algorithmic music composer. It should be able to learn some
@@ -12,9 +14,6 @@ modified them a bit so that they would include only the characters [0-9], [a-z] 
 ’G’,’H’,’I’,’J’,’L’,’O’,’P’,’Q’,’S’,’T’,’V’,’W’,’Y’,’Z’]. The file MusicResources.hs will con-
 tain these strings. Code should use the list training from that file in order to learn. Make sure that file in the same folder as your solution .hs file.
 </p>
-<h3>
--- %%%%%%%%%%%%%%%%%%%% Part A %%%%%%%%%%%%%%%%%%%
-</h3>
 <h4>
 makeHelper4 :: Char -> [Char] -> [Char]
 </h4>
@@ -53,7 +52,6 @@ makeStatsList :: [(Char,[(Int,Char)])]
 </h4>
 makeStatsList
 Maps the function possiblePack for all chars--
-<h3>%%%%%%%%%%%%%%%%%%%% Part B %%%%%%% %%%%%%%%%%%</h3>
 <h4>
 sumf :: [(Int,Char)] -> Int
 </h4>
